@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* to use font  */
+@font-face {
+    font-family: "anzo1";
+    /* can youse any name in font family */
+    src: url(./asset/file.woff2);
+}
+@font-face {
+    font-family: "anzoMade";
+    /* can youse any name in font family */
+    src: url(./asset/madefor-text.var.original.woff2);
+}
+@font-face {
+    font-family: "anzo2";
+    /* can youse any name in font family */
+    src: url(./asset/file2.woff2);
+}
+@font-face {
+    font-family: "anzo3";
+    /* can youse any name in font family */
+    src: url(./asset/file3.woff2);
+}
+@font-face {
+    font-family: "anzo4";
+    /* can youse any name in font family */
+    src: url(./asset/file4.woff2);
+}
+@font-face {
+    font-family: "anzo5";
+    /* can youse any name in font family */
+    src: url(./asset/file5.woff2);
+}
+
+
+*{
+    margine:0;
+    padding :0;
+    box-sizing:gilroy;
+    color:#fff
+
+}
+html,
+body{
+    height:100%;
+    width:100%;
+    background-color:#111
+}
+
+#page1-in{
+    position :relative ;
+    perspective:2000px
+}
+
+#tiltDiv{
+/* background-color: red; */
+width:fit-content
+}
